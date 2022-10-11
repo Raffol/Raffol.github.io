@@ -1,4 +1,4 @@
-<:DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,40 +8,68 @@
     
     <meta property="og:title" content="my 1st page">
     
-    <tittle>Web-develop</tittle>
+    <title>Web-develop</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../src/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
     <div class="loader"></div>
-    <style>
-      </style> 
+   
     </head>
     
     <body>
     
        <header>
         <nav>
-            <div class="logo">EDK</div>
-            <div class="menu">
-            <ul>
-            <li> <a href="a">обо мне</a></li>
-            <li> <a href="a">услуги</a></li>
-            <li> <a href="a">кейсы</a></li>
-            <li> <a href="a">прайс</a></li>
-            <li> <a href="a">отзывы</a></li>
-            <li> <a href="a">контакты</a></li>
-             </ul></div>
-        </nav>
+          <div class="container">
+            <div class="row">
+              <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">EDK</div></div>
+              <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-lg-block"> <div class="menu">
+                <ul>
+                <li> <a href="a">обо мне</a></li>
+                <li> <a href="a">услуги</a></li>
+                <li> <a href="a">кейсы</a></li>
+                <li> <a href="a">прайс</a></li>
+                <li> <a href="a">отзывы</a></li>
+                <li> <a href="a">контакты</a></li>
+                 </ul>
+                </div></div>
+                <div class="col-7 d-flex d-lg-none flex-column justify-content-center align-items-end">
+                  <div class="dropdown">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      navigation
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <!--<li><a class="dropdown-item" href="#">Действие</a></li>
+                      <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                      <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>-->
+                      <li> <a class="dropdown-item">обо мне</a></li>
+                      <li> <a class="dropdown-item">услуги</a></li>
+                      <li> <a class="dropdown-item">кейсы</a></li>
+                      <li> <a class="dropdown-item">прайс</a></li>
+                      <li> <a class="dropdown-item">отзывы</a></li>
+                      <li> <a class="dropdown-item">контакты</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </nav>
     </header>
           <main> 
-        <section class="main"><div class="tittle__container"> 
-         <h1>hi! <br>i'm denis</h1>
-          <h4><i class="fa fa-css3 custom-css3" aria-hidden="true"></i>full-stack web-develop</h4></br>
-          <input type="button" value=about>
-        <input type="button" value=my works>
-              </div>
+        <section class="main">
+          <div class="container h-100"><div class="row align-items-center h-100">
+            <div class="col-lg-6 mt-5 pt-5">
+            <div class="title__container mt-5"> 
+              <h1>hi!<br>i'm denis</h1>
+               <h4><i class="fa fa-css3 custom-css3" aria-hidden="true"></i>full-stack web-develop</h4></br>
+               <input type="button" value=about>
+             <input type="button" value=my works>
+                   </div>
+          </div></div></div>
+          
         </section>
-              
                 <br>
                 <br>
                 <br>
@@ -93,7 +121,7 @@
                 <br>
                 <br>
                 </main>
-                </main>  
+                <script scr="../src/js/bootstrap.bundle.min.js"></script>
                  <h2>Обо мне</h2>
             <h4>Меня зовут Денис и я начинающий frontend программист. В свободное время занимаюсь фотографией.
             Нужен сайт или фоточка на аватарку? Welcome! :D    
@@ -155,10 +183,10 @@
       <h4>для связи со мной прошу вас оставить ваши контактные данные</h4>
    <form action="#">
        <input type="text" name="text_input" placeholder="Ваше имя">
-       <input type="tel" placeholder="Номер телофона">
+       <input type="tel" placeholder="Номер телефона">
        <input type="text" name="text_input" placeholder="Ваша почта">
        <textarea name="name1" id="1" cols="60" rows="30">Комментарии к вашему проекту</textarea> 
    </form>
-   
+ 
        </body>
         </html>

@@ -1,31 +1,29 @@
-.block_orange{
-    width: 94%;
-    height: 327px;
-    margin: 3%;
-    background: orange;
-
+.block{
+    margin: 250px;
+    background-color: aliceblue;
+   
 }
-.block_green{
-    width: 20%;
-    height: 590px;
-    background: greenyellow;
-    margin-left: 3%;
-    float: left;
+.row{
+    background-color: darkcyan;
+    padding: 16px;
+    display: flex;
+    height: 500px;
 }
-.block_blue{
-    margin-left: 3%;
-    width: 71%;
-    height: 600px;
-    background: blue;
-    float: left;
+.col{
+    background-color: chocolate;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+  
 }
-@media (max-width: 700px){
-    .block_green{
-        width: 94%;
-        margin-right: 3%;
-    }
-    .block_blue{
-        margin-left: 3%;
-        width: 71%;
-    }
+.col2{
+    
+}
+.col1{
+    
+}
+.col3{
+   
 }
