@@ -140,7 +140,7 @@ nav{
 .skills_container h2{
     text-align: center;
     width: 214px;
-    font-size: 33px;
+    font-size: 28px;
     margin: 0 auto 30px;
     padding-bottom: 5px;
     text-transform: uppercase;
@@ -154,12 +154,18 @@ nav{
 }
 
 .skills_item img{
-margin-bottom: 40px;
+margin-bottom: 20px;
 height: 40px;
 }
 .skills_item h3{
-    
+    font-size: 18px;
+    color: #cf7600;
+    margin-bottom: 20px;
 }
+.skills_item p{
+    font-size: 16px;
+}
+
 .menu li a{
     transition: all 0.1s;
     color: white;
